@@ -21,7 +21,7 @@ app.use(cors()) // middleware
 // }));
 
 
-// 3. realiza el enrutamiento conforme a la url - Routing
+// 3. realiza el enrutamiento conforme a la URL - Routing
 app.get('/api/coasters', (req, res) => {
     Coaster
         .find()
