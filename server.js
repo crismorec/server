@@ -40,10 +40,6 @@ app.get('/api/details/:coaster_id', (req, res) => {
         .then(coaster => res.json(coaster))
 })
 
-
-
-
-
 app.get('/api/languages', (req, res) => {
     Language
         .find()
