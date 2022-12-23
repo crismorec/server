@@ -1,6 +1,9 @@
+import { PORT } from "./config";
+
 const express = require('express')
 const app = express()
-app.listen(5005, () => console.log('*** a. SERVIDOR LEVANTADO'))
+// app.listen(5005, () => console.log('*** a. SERVIDOR LEVANTADO'))
+app.listen(PORT, () => console.log('*** a. SERVIDOR LEVANTADO'))
 
 const Coaster = require('./Models/Coaster.model')
 const Language = require('./Models/Language.model')
