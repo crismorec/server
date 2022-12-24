@@ -1,5 +1,3 @@
-// import { PORT } from "./config";
-
 const express = require('express')
 const app = express()
 // app.listen(5005, () => console.log('*** a. SERVIDOR LEVANTADO'))
