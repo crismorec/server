@@ -2,7 +2,8 @@ const mongoose = require('mongoose')
 
 mongoose
     // .connect('mongodb://localhost/garaje-live-coding')
-    .connect('mongodb://mongo:2P7YU1HG4vadfspf0dyZ@containers-us-west-144.railway.app:6512')
+    //.connect('mongodb://mongo:2P7YU1HG4vadfspf0dyZ@containers-us-west-144.railway.app:6512') // old
+    .connect('mongodb://mongo:wAkbof4t84y6tMGB8e7l@containers-us-west-144.railway.app:6512')
     // .connect('mongodb://mongo:utX51FSLuAir7L5oPSUQ@containers-us-west-189.railway.app:7597')
     .then(() => console.log(' *** b. CONECTADO A BD'))
 
